@@ -29,12 +29,9 @@ import { ReportViewerModule } from 'ngx-ssrs-reportviewer';
         ButtonModule,
         ContextMenuModule,
         TabViewModule,
-<<<<<<< HEAD
 CodeHighlighterModule,
 ReportViewerModule
-=======
-CodeHighlighterModule
->>>>>>> fb1960d8488f1a75ab208654ff930fd3bfa3a71a
+
   ],
   providers: [],
   bootstrap: [AppComponent],
