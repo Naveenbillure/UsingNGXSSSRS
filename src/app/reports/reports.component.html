@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+<div>
+    <div style="float: left;">
+        <p-tree [value]="treeNodes" selectionMode="single" [filter]="true" (onNodeSelect)="nodeSelect($event)"></p-tree>
+    </div>
+    <div>
+        <div class="container">
+            <ssrs-reportviewer
+                [reportserver]="reportServer"
+                [reporturl]="reportUrl"
+                [showparameters]="showParameters" 
+                [parameters]="parameters" 
+                [language]="language" 
+                [width] ="width" 
+                [height]="height" 
+                [toolbar]="toolbar" >
+            </ssrs-reportviewer>
+        </div>
+    </div>
+</div>
+=======
+<p-tree [value]="treeNodes" selectionMode="single" [filter]="true"></p-tree>
+>>>>>>> fb1960d8488f1a75ab208654ff930fd3bfa3a71a
